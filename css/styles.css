@@ -892,13 +892,13 @@ img {
   
   @media screen and (min-width: 768px) {
     .container {
-      width: 768px;
+      width: 750px;
     }
   }
   
   @media screen and (min-width: 1200px) {
     .container {
-      width: 1200px;
+      width: 1150px;
     }
 
     .menu-container > .list {
@@ -918,13 +918,6 @@ img {
 
 @media screen and (max-width: 1200px) {
 
-    .comment-input {
-        width: 100%;
-    }
-
-    .form-input {
-        width: 100%;
-      }
 
     .js-close-menu {
         display: none;
@@ -1019,6 +1012,8 @@ img {
     }
 
     .clients-list {
+        max-width: 700px;
+        margin: 0 auto;
         flex-wrap: wrap;
         justify-content: center;
         row-gap: 56px;
@@ -1056,14 +1051,6 @@ img {
 
     .header > .container {
         margin: 0;
-    }
-
-    .comment-input {
-        width: 100%;
-    }
-
-    .form-input {
-        width: 100%;
     }
 
     .menu-container {
