@@ -884,9 +884,9 @@ img {
 }
 
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 480px) {
     .container {
-      width: 410px;
+      width: 450px;
     }
   }
   
@@ -1221,7 +1221,7 @@ img {
     }
 
     .mail-input {
-        width: 370px;
+        width: 396px;
     }
   }
   
