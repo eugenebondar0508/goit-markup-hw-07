@@ -913,10 +913,24 @@ img {
         display: none;
     }
 
+    .menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 200px;
+      }
+
   }
 
 
 @media screen and (max-width: 1200px) {
+
+    .menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 90px;
+      }
 
 
     .js-close-menu {
@@ -1225,14 +1239,14 @@ img {
     }
   }
   
-  @media screen and (min-width: 768px) {
+  /* @media screen and (min-width: 768px) {
     .menu-container {
       display: flex;
       align-items: center;
       justify-content: space-between;
       column-gap: 90px;
     }
-  }
+  } */
   
   .menu-container.is-open {
     opacity: 1;
