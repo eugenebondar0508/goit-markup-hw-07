@@ -884,9 +884,9 @@ img {
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 420px) {
     .container {
-      width: 450px;
+      width: 410px;
     }
   }
   
