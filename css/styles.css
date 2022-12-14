@@ -30,7 +30,7 @@ img {
 
 .container {
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 ;
 }
 
 .section {
@@ -886,7 +886,7 @@ img {
 
 @media screen and (min-width: 480px) {
     .container {
-      width: 480px;
+      width: 450px;
     }
   }
   
@@ -1030,6 +1030,7 @@ img {
         justify-content: center;
         column-gap: 24px;
         row-gap: 72px;
+        padding: 0;
     }
 
     .footer-info {
@@ -1193,6 +1194,10 @@ img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .footer > .container {
+        padding: 0;
     }
 
     .footer-logo {
