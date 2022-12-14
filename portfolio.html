@@ -16,34 +16,77 @@
         <div class="container">
             <nav class="nav">
                 <a href="#" class="logo"><span class="logo-text">WEB</span>STUDIO</a>
-                <ul class="nav-list">
+                <button type="button" class="menu-button menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                  <svg class="menu-button__icon" height="40" width="40" aria-label="Переключатель мобильного меню">
+                    <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
+                  </svg>
+                </button>
+                <div class="menu-container js-menu-container" id="mobile-menu">
+                  <button class="close menu-toggle js-close-menu">
+                    <svg class="icon" width="24" height="24">
+                      <use href="./images/sprite.svg#icon-close"></use>
+                    </svg>
+                  </button>
+                  <ul class="nav-list">
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Studio</a>
+                        <a class="nav-link current" href="./index.html">Studio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link current" href="./portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contacts</a>
                     </li>
                 </ul>
-            </nav>
-            <ul class="contact-list">
-                <li class="contact-item">
-                    <a class="contact-link" href="mailto:info@devstudio.com">
-                      <svg class="icon" width="16" height="12">
-                        <use href="./images/sprite.svg#icon-mail"></use>
-                      </svg>
-                      info@devstudio.com
-                    </a>
+
+                <ul class="contact-list">
+                  <li class="contact-item">
+                      <a class="contact-link" href="mailto:info@devstudio.com">
+                        <svg class="icon" width="16" height="12">
+                          <use href="./images/sprite.svg#icon-mail"></use>
+                        </svg>
+                        info@devstudio.com
+                      </a>
+                  </li>
+                  <li class="contact-item">
+                      <a class="contact-link" href="tel:+11 (000) 111-11-11">
+                        <svg class="icon" width="10" height="16">
+                          <use href="./images/sprite.svg#icon-smartphone"></use>
+                        </svg>+11(000)111-11-11</a>
+                  </li>
+              </ul>
+              <ul class="list">
+                <li class="item">
+                    <a class="link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <svg class="icon" width="20" height="20">
+                          <use href="./images/sprite.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
                 </li>
-                <li class="contact-item">
-                    <a class="contact-link" href="tel:+11 (000) 111-11-11">
-                      <svg class="icon" width="10" height="16">
-                        <use href="./images/sprite.svg#icon-smartphone"></use>
-                      </svg>+11(000)111-11-11</a>
+                <li class="item">
+                    <a class="link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <svg class="icon" width="20" height="20">
+                          <use href="./images/sprite.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                </li>
+                <li class="item">
+                    <a class="link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <svg class="icon" width="20" height="20">
+                          <use href="./images/sprite.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                </li>
+                <li class="item">
+                    <a class="link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <svg class="icon" width="20" height="20">
+                          <use href="./images/sprite.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
                 </li>
             </ul>
+                </div>
+            </nav>
         </div>
     </header>
     <main>
